@@ -3,6 +3,7 @@
   <head>
     
     <!-- Favicon -->
+    
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -46,7 +47,7 @@
     <script src="js/main.js"></script>
 <!--    <script src="//fast.eager.io/qRh7zyGSz4.js"></script>-->
     
-    <title>GALLERY</title>
+    <title>MORE INFORMATION</title>
   </head>
   <body>
     <div class="menu">
@@ -68,36 +69,47 @@
       <div class="menu-icon"></div>
     </header>
     <section class="gallery-section">
-      <h1 class="title">Gallery</h1>
+      <h1 class="title">More information</h1>
       <div class="wrapper">
-        <img src="img/bike-1.png">
-        <img src="img/bike-2.png">
-        <img src="img/bike-4.png">
-        <img src="img/bike-5.png">
-        <img src="img/bike-6.png">
-        <img src="img/bike-7.png">
-        <img src="img/bike-9.png">
-        <img src="img/bike-10.png">
-        <img src="img/bike-11.png">
-        <img src="img/bike-12.png">
-        <img src="img/bike-14.png">
-        <img src="img/bike-16.png">
-        <img src="img/bike-17.png">
-        <img src="img/bike-19.png">
-        <img src="img/bike-20.png">
-        <img src="img/bike-21.png">
-        <img src="img/bike-22.png">
-        <img src="img/bike-26.png">
-        <img src="img/bike-27.png">
-        <img src="img/bike-28.png">
-        <img src="img/bike-13.png">
-        <img src="img/bike-3.png">
-        <img src="img/bike-8.png">
-        <img src="img/bike-15.png">
-        <img src="img/bike-18.png">
-        <img src="img/bike-23.png">
-        <img src="img/bike-24.png">
-        <img src="img/bike-25.png">
+        <h1 class="sub-title">Please, send us an email or fill in the blanks and we will send you all details in short time.</h1>
+        <h2 class="warning">And please, don’t forget to tell us how did you learn about us. Something special will be waiting for you!!</h2>
+        <form action="send1.php" method="post" name="myform">
+          <div class="form-element">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div class="form-element">
+            <label for="email">Email*: </label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="form-element">
+            <label for="phone">Phone number:</label>
+            <input type="text" name="phone" id="phone">
+          </div>
+          <div class="form-element">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+          </div>
+          <div class="form-element">
+            <label for="bikestore">UK Bike store:</label>
+            <input type="text" name="bikestore" id="bikestore">
+          </div>
+          <div class="form-element">
+            <label for="city">Please, tell us how do you know about us:</label>
+            <input type="text" name="about" id="about">
+          </div>
+          <div class="form-element">
+            <label>Comments, questions...</label>
+            <textarea id="textarea">
+              
+            </textarea>
+          </div>
+          <label>We advise you to tell us as much as you have in mind so can full fill your expectacions!!</label>
+          <div>
+            <input type="text" id="mailtext" name="mailtext">
+            <input name="submitted" type="submit" value="Submit" />
+          </div>
+        </form>
       </div>
     </section>
     <footer>
@@ -105,5 +117,18 @@
         <img src="img/footer.png" width="200px">
       </div>
     </footer>
+    
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

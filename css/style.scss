@@ -79,6 +79,9 @@ header {
 
 .coast-to-coast {
   color: #000;
+  .sub-title {
+    font-size: 1.2em;
+  }
 }
 
 .description-section {
@@ -106,10 +109,6 @@ header {
     }
   }
   
-  .title {
-    font-size: 3em;
-  } 
-  
   .wrapper {
     text-align: left;
     padding-bottom: 20px;
@@ -129,6 +128,7 @@ header {
       
       .sub-title {
         margin-bottom: 10px;
+        font-size: 1.5em;
       }
       
       .dis-element {
@@ -161,7 +161,7 @@ header {
   text-align: center;
   
   .title {  
-      
+    font-size: 3em;
   }
   
   .sub-title {
@@ -180,6 +180,11 @@ footer {
   
   div {
     padding: 25px 50px;
+    
+    img {
+      position: absolute;
+      margin-top: -10px;
+    }
   }
   
   a {
@@ -221,6 +226,7 @@ footer {
   color: #000;
   margin: 15px auto;
   max-width: 500px;
+  font-size: 1.3em;
 }
 
 .stages-img {
@@ -280,6 +286,7 @@ tfoot td {
   
   .title {
     margin-top: 70px;
+    font-size: 3em;
   }
   
   .sub-title {

@@ -21,8 +21,8 @@ header {
     height: 70px;
     text-align: right;
     background-color: rgba(83,104,57, 0.5);
-    
-    
+
+
     a {
       text-decoration: none;
       font-family: 'Alegreya';
@@ -42,8 +42,8 @@ header {
   width: 100%;
   height: 100%;
   text-align: center;
-  
-  .black-opacity {
+
+  .ck-opacity {
     background: #000;
     opacity: 0.1;
     width: 100%;
@@ -51,8 +51,8 @@ header {
     position: absolute;
     z-index: -1;
   }
-  
-  
+
+
   h1 {
     font-family: 'Alegreya';
     text-align: center;
@@ -60,7 +60,7 @@ header {
     padding-top: 30%;
     opacity: 0.8;
   }
-  
+
   h2 {
     text-align: center;
     font-size: 2.3em;
@@ -68,13 +68,13 @@ header {
     padding: 0;
     opacity: 0.8;
   }
-  
+
   .down-arrow {
     display: inline-block;
     margin-top: 15%;
     cursor: pointer;
   }
-  
+
 }
 
 .coast-to-coast {
@@ -88,62 +88,66 @@ header {
   background: #F5F5DC;
   color: #000;
   padding-bottom: 70px;
-  
+
   .text-wrapper {
     margin-top: 50px;
-    
+
     h1 {
       color: #000;
       margin: 20px 0 10px;
       font-size: 2em;
     }
-    
+
     p {
       color: #000;
       margin: 10px 0;
       font-size: 1.5em;
     }
-    
+
     span {
       color: red;
     }
   }
-  
+
   .wrapper {
     text-align: left;
     padding-bottom: 20px;
-    
+
     .tour-img {
-      margin: 50px;
+      margin: 0 50px;
     }
-    
+
     .distance {
       margin: 10px 0;
       text-align: center;
-      
+
       .desk {
         color: #000;
         margin-bottom: 25px;
       }
-      
+
       .sub-title {
         margin-bottom: 10px;
         font-size: 1.5em;
       }
-      
+
       .dis-element {
         vertical-align: middle;
         display: inline-block;
         width: 350px;
-        height: 250px;
+        height: 440px;
         background: #B2BD64;
         margin: 5px;
-        
+
         h1 {
           margin: 10px;
           font-size: 3em;
         }
-        
+
+        h3 {
+          font-size: 2em;
+        }
+
         p {
           text-align: left;
           margin: 10px;
@@ -153,23 +157,23 @@ header {
         }
       }
     }
-  }  
+  }
 }
 
 .photos-section {
   color: #000;
   text-align: center;
-  
-  .title {  
+
+  .title {
     font-size: 3em;
   }
-  
+
   .sub-title {
-    margin-bottom: 25px;
+    margin: 25px;
   }
-  
+
   img {
-    
+
   }
 }
 
@@ -177,22 +181,22 @@ header {
 footer {
   height: 70px;
   background: rgb(83, 104, 57);
-  
+
   div {
     padding: 25px 50px;
-    
+
     img {
       position: absolute;
       margin-top: -10px;
     }
   }
-  
+
   a {
     text-decoration: none;
     font-size: 1.15em;
     &:hover {
       font-weight: 600;
-      
+
     }
   }
 }
@@ -215,7 +219,7 @@ footer {
   width: 70%;
   margin: 0 auto;
   text-align: center;
-  
+
   .coast-img {
     margin: 25px;
     cursor: pointer;
@@ -225,7 +229,7 @@ footer {
 .black-text {
   color: #000;
   margin: 15px auto;
-  max-width: 500px;
+  // max-width: 500px;
   font-size: 1.3em;
 }
 
@@ -283,12 +287,12 @@ tfoot td {
 }
 
 .photos-optional {
-  
+
   .title {
     margin-top: 70px;
     font-size: 3em;
   }
-  
+
   .sub-title {
     margin-bottom: 25px;
   }
@@ -296,52 +300,52 @@ tfoot td {
 
 .billing-section {
   background: #F5F5DC;
-  
+
   a {
     color: #536839;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
   }
-  
+
   p {
     margin: 15px 0 0;
     text-align: left;
     color: #000;
     font-size: 1.2em;
   }
-  
+
   .sub-title {
     margin: 50px 0 0;
     text-align: left;
   }
-  
+
   .biling-element {
-    width: 350px;
-    height: 300px;
+    max-width: 350px;
+    min-height: 300px;
     vertical-align: top;
     background: rgb(178, 189, 100);
     padding: 10px;
     display: inline-block;
     margin: 40px 10px 0;
-    
+
     .title {
       color: #F5F5DC;
       font-size: 3em;
     }
-    
-    
+
+
     p {
       margin: 5px;
       color: #fff;
     }
-    
+
     .biling-p1 {
       font-size: 1.5em;
     }
-    
+
     .biling-p2 {
       margin-top: 15px;
       font-size: 1.2em;
@@ -360,20 +364,14 @@ tfoot td {
   .title {
     padding: 140px 0 0;
   }
-  
+
   .sub-title {
     text-align: left;
     font-size: 1.5em;
   }
-  
-  .warning {
-    color: red;
-    font-size: 1.2em;
-    margin: 25px 0;
-  }
-  
+
   img {
-    margin: 10px; 
+    margin: 10px;
   }
 }
 
@@ -386,17 +384,17 @@ tfoot td {
 form {
   color: #000;
   text-align: left;
-  
+
   .form-element {
-    
+
   }
-  
+
   label {
     color: #000;
     cursor: pointer;
     font-size: 1.5em;
   }
-  
+
   input{
     color: #000;
     padding: 5px;
@@ -404,12 +402,12 @@ form {
     font-size: 1em;
     margin: 25px;
   }
-  
+
   input[type="email"] {
     width: 300px;
   }
-  
-  
+
+
   textarea {
     display: block;
     width: 80%;
@@ -428,13 +426,13 @@ form {
     top: -100vh;
     background: rgb(83, 104, 57);
     display: none;
-    
+
     .menu-wrapper {
       width: 50%;
       margin: 5% auto;
       text-align: center;
-      
-      
+
+
       a {
         color: #fff;
         font: 400 2em "Alegreya";
@@ -442,7 +440,7 @@ form {
         display: block;
         padding: 10px;
       }
-      
+
       a:hover {
         font-weight: 800;
       }
@@ -483,11 +481,11 @@ form {
 
 .mail-section {
   text-align: center;
-  
+
   .title {
     padding-top: 20%;
   }
-  
+
   a {
     text-decoration: none;
     color: red;
@@ -504,3 +502,69 @@ form {
   height: 300px;
 }
 
+.warning {
+  color: red;
+  font-size: 1.2em;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.map {
+  padding: 20px;
+  text-align: center;
+
+  img {
+    max-height: 100%;
+  }
+
+  .warning {
+    text-align: center !important;
+    padding: 5px;
+  }
+
+}
+
+.howto-section {
+  max-width: 80%;
+  padding: 0 10%;
+  p {
+    margin: 15px 0 0;
+    text-align: center;
+    color: #000;
+    font-size: 1.2em;
+  }
+
+  h1 {
+    padding: 15px 0;
+  }
+
+  .sub-title {
+    margin: 50px 0 0;
+    text-align: center;
+  }
+
+  .element {
+    width: 90%;
+    min-height: 300px;
+    vertical-align: top;
+    background: rgb(178, 189, 100);
+    padding: 10px;
+    display: inline-block;
+    margin: 40px 10px 0;
+
+    .title {
+      color: #F5F5DC;
+      font-size: 3em;
+    }
+
+
+    p {
+      margin: 5px;
+      color: #fff;
+    }
+  }
+}
+
+.map {
+  margin: 25px;
+}

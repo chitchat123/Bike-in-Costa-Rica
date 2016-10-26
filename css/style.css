@@ -16,13 +16,14 @@ header nav {
   height: 70px;
   text-align: right;
   background-color: rgba(83, 104, 57, 0.5); }
-  header nav a {
-    text-decoration: none;
-    font-family: 'Alegreya';
-    font-size: 1.5em;
-    line-height: 70px;
-    padding: 25px;
-    font-weight: 200; }
+
+header nav a {
+  text-decoration: none;
+  font-family: 'Alegreya';
+  font-size: 1.5em;
+  line-height: 70px;
+  padding: 25px;
+  font-weight: 200; }
 
 .header-img {
   background: url(../img/header-background.jpg);
@@ -32,103 +33,129 @@ header nav {
   width: 100%;
   height: 100%;
   text-align: center; }
-  .header-img .black-opacity {
-    background: #000;
-    opacity: 0.1;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    z-index: -1; }
-  .header-img h1 {
-    font-family: 'Alegreya';
-    text-align: center;
-    font-size: 4em;
-    padding-top: 30%;
-    opacity: 0.8; }
-  .header-img h2 {
-    text-align: center;
-    font-size: 2.3em;
-    margin: 0;
-    padding: 0;
-    opacity: 0.8; }
-  .header-img .down-arrow {
-    display: inline-block;
-    margin-top: 15%;
-    cursor: pointer; }
+
+.header-img .ck-opacity {
+  background: #000;
+  opacity: 0.1;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1; }
+
+.header-img h1 {
+  font-family: 'Alegreya';
+  text-align: center;
+  font-size: 4em;
+  padding-top: 30%;
+  opacity: 0.8; }
+
+.header-img h2 {
+  text-align: center;
+  font-size: 2.3em;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8; }
+
+.header-img .down-arrow {
+  display: inline-block;
+  margin-top: 15%;
+  cursor: pointer; }
 
 .coast-to-coast {
   color: #000; }
-  .coast-to-coast .sub-title {
-    font-size: 1.2em; }
+
+.coast-to-coast .sub-title {
+  font-size: 1.2em; }
 
 .description-section {
   background: #F5F5DC;
   color: #000;
   padding-bottom: 70px; }
-  .description-section .text-wrapper {
-    margin-top: 50px; }
-    .description-section .text-wrapper h1 {
-      color: #000;
-      margin: 20px 0 10px;
-      font-size: 2em; }
-    .description-section .text-wrapper p {
-      color: #000;
-      margin: 10px 0;
-      font-size: 1.5em; }
-    .description-section .text-wrapper span {
-      color: red; }
-  .description-section .wrapper {
-    text-align: left;
-    padding-bottom: 20px; }
-    .description-section .wrapper .tour-img {
-      margin: 50px; }
-    .description-section .wrapper .distance {
-      margin: 10px 0;
-      text-align: center; }
-      .description-section .wrapper .distance .desk {
-        color: #000;
-        margin-bottom: 25px; }
-      .description-section .wrapper .distance .sub-title {
-        margin-bottom: 10px;
-        font-size: 1.5em; }
-      .description-section .wrapper .distance .dis-element {
-        vertical-align: middle;
-        display: inline-block;
-        width: 350px;
-        height: 250px;
-        background: #B2BD64;
-        margin: 5px; }
-        .description-section .wrapper .distance .dis-element h1 {
-          margin: 10px;
-          font-size: 3em; }
-        .description-section .wrapper .distance .dis-element p {
-          text-align: left;
-          margin: 10px;
-          font-size: 1.5em;
-          vertical-align: left;
-          text-align: center; }
+
+.description-section .text-wrapper {
+  margin-top: 50px; }
+
+.description-section .text-wrapper h1 {
+  color: #000;
+  margin: 20px 0 10px;
+  font-size: 2em; }
+
+.description-section .text-wrapper p {
+  color: #000;
+  margin: 10px 0;
+  font-size: 1.5em; }
+
+.description-section .text-wrapper span {
+  color: red; }
+
+.description-section .wrapper {
+  text-align: left;
+  padding-bottom: 20px; }
+
+.description-section .wrapper .tour-img {
+  margin: 0 50px; }
+
+.description-section .wrapper .distance {
+  margin: 10px 0;
+  text-align: center; }
+
+.description-section .wrapper .distance .desk {
+  color: #000;
+  margin-bottom: 25px; }
+
+.description-section .wrapper .distance .sub-title {
+  margin-bottom: 10px;
+  font-size: 1.5em; }
+
+.description-section .wrapper .distance .dis-element {
+  vertical-align: middle;
+  display: inline-block;
+  width: 350px;
+  height: 440px;
+  background: #B2BD64;
+  margin: 5px; }
+
+.description-section .wrapper .distance .dis-element h1 {
+  margin: 10px;
+  font-size: 3em; }
+
+.description-section .wrapper .distance .dis-element h3 {
+  font-size: 2em; }
+
+.description-section .wrapper .distance .dis-element p {
+  text-align: left;
+  margin: 10px;
+  font-size: 1.5em;
+  vertical-align: left;
+  text-align: center; }
 
 .photos-section {
   color: #000;
   text-align: center; }
-  .photos-section .title {
-    font-size: 3em; }
-  .photos-section .sub-title {
-    margin-bottom: 25px; }
+
+.photos-section .title {
+  font-size: 3em; }
+
+.photos-section .sub-title {
+  margin: 25px; }
 
 footer {
   height: 70px;
   background: #536839; }
-  footer div {
-    padding: 25px 50px; }
-    footer div img {
-      position: absolute;
-      margin-top: -10px; }
-  footer a {
-    text-decoration: none;
-    font-size: 1.15em; }
-    footer a:hover {
-      font-weight: 600; }
+
+footer div {
+  padding: 25px 50px; }
+
+footer div img {
+  position: absolute;
+  margin-top: -10px; }
+
+footer a {
+  text-decoration: none;
+  font-size: 1.15em; }
+
+footer a:hover {
+  font-weight: 600; }
 
 .title {
   color: #536839;
@@ -146,14 +173,14 @@ footer {
   width: 70%;
   margin: 0 auto;
   text-align: center; }
-  .wrapper .coast-img {
-    margin: 25px;
-    cursor: pointer; }
+
+.wrapper .coast-img {
+  margin: 25px;
+  cursor: pointer; }
 
 .black-text {
   color: #000;
   margin: 15px auto;
-  max-width: 500px;
   font-size: 1.3em; }
 
 .stages-img {
@@ -202,43 +229,53 @@ tfoot td {
 .photos-optional .title {
   margin-top: 70px;
   font-size: 3em; }
+
 .photos-optional .sub-title {
   margin-bottom: 25px; }
 
 .billing-section {
   background: #F5F5DC; }
-  .billing-section a {
-    color: #536839;
-    text-decoration: none; }
-    .billing-section a:hover {
-      text-decoration: underline; }
-  .billing-section p {
-    margin: 15px 0 0;
-    text-align: left;
-    color: #000;
-    font-size: 1.2em; }
-  .billing-section .sub-title {
-    margin: 50px 0 0;
-    text-align: left; }
-  .billing-section .biling-element {
-    width: 350px;
-    height: 300px;
-    vertical-align: top;
-    background: #b2bd64;
-    padding: 10px;
-    display: inline-block;
-    margin: 40px 10px 0; }
-    .billing-section .biling-element .title {
-      color: #F5F5DC;
-      font-size: 3em; }
-    .billing-section .biling-element p {
-      margin: 5px;
-      color: #fff; }
-    .billing-section .biling-element .biling-p1 {
-      font-size: 1.5em; }
-    .billing-section .biling-element .biling-p2 {
-      margin-top: 15px;
-      font-size: 1.2em; }
+
+.billing-section a {
+  color: #536839;
+  text-decoration: none; }
+
+.billing-section a:hover {
+  text-decoration: underline; }
+
+.billing-section p {
+  margin: 15px 0 0;
+  text-align: left;
+  color: #000;
+  font-size: 1.2em; }
+
+.billing-section .sub-title {
+  margin: 50px 0 0;
+  text-align: left; }
+
+.billing-section .biling-element {
+  max-width: 350px;
+  min-height: 300px;
+  vertical-align: top;
+  background: #b2bd64;
+  padding: 10px;
+  display: inline-block;
+  margin: 40px 10px 0; }
+
+.billing-section .biling-element .title {
+  color: #F5F5DC;
+  font-size: 3em; }
+
+.billing-section .biling-element p {
+  margin: 5px;
+  color: #fff; }
+
+.billing-section .biling-element .biling-p1 {
+  font-size: 1.5em; }
+
+.billing-section .biling-element .biling-p2 {
+  margin-top: 15px;
+  font-size: 1.2em; }
 
 .sale {
   margin: 25px 0;
@@ -248,13 +285,11 @@ tfoot td {
 
 .gallery-section .title {
   padding: 140px 0 0; }
+
 .gallery-section .sub-title {
   text-align: left;
   font-size: 1.5em; }
-.gallery-section .warning {
-  color: red;
-  font-size: 1.2em;
-  margin: 25px 0; }
+
 .gallery-section img {
   margin: 10px; }
 
@@ -266,26 +301,30 @@ tfoot td {
 form {
   color: #000;
   text-align: left; }
-  form label {
-    color: #000;
-    cursor: pointer;
-    font-size: 1.5em; }
-  form input {
-    color: #000;
-    padding: 5px;
-    width: 200px;
-    font-size: 1em;
-    margin: 25px; }
-  form input[type="email"] {
-    width: 300px; }
-  form textarea {
-    display: block;
-    width: 80%;
-    height: 200px;
-    margin: 50px 0;
-    color: #000;
-    font-size: 1.1em;
-    padding: 0; }
+
+form label {
+  color: #000;
+  cursor: pointer;
+  font-size: 1.5em; }
+
+form input {
+  color: #000;
+  padding: 5px;
+  width: 200px;
+  font-size: 1em;
+  margin: 25px; }
+
+form input[type="email"] {
+  width: 300px; }
+
+form textarea {
+  display: block;
+  width: 80%;
+  height: 200px;
+  margin: 50px 0;
+  color: #000;
+  font-size: 1.1em;
+  padding: 0; }
 
 .menu {
   width: 100%;
@@ -295,18 +334,21 @@ form {
   top: -100vh;
   background: #536839;
   display: none; }
-  .menu .menu-wrapper {
-    width: 50%;
-    margin: 5% auto;
-    text-align: center; }
-    .menu .menu-wrapper a {
-      color: #fff;
-      font: 400 2em "Alegreya";
-      text-decoration: none;
-      display: block;
-      padding: 10px; }
-    .menu .menu-wrapper a:hover {
-      font-weight: 800; }
+
+.menu .menu-wrapper {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center; }
+
+.menu .menu-wrapper a {
+  color: #fff;
+  font: 400 2em "Alegreya";
+  text-decoration: none;
+  display: block;
+  padding: 10px; }
+
+.menu .menu-wrapper a:hover {
+  font-weight: 800; }
 
 .menu-icon {
   background: url(../img/menu-lines.png);
@@ -338,11 +380,13 @@ form {
 
 .mail-section {
   text-align: center; }
-  .mail-section .title {
-    padding-top: 20%; }
-  .mail-section a {
-    text-decoration: none;
-    color: red; }
+
+.mail-section .title {
+  padding-top: 20%; }
+
+.mail-section a {
+  text-decoration: none;
+  color: red; }
 
 #table-down th, #table-down td {
   padding: 21px; }
@@ -350,4 +394,56 @@ form {
 #image-bug {
   height: 300px; }
 
-/*# sourceMappingURL=style.css.map */
+.warning {
+  color: red;
+  font-size: 1.2em;
+  margin: 25px 0;
+  text-align: left; }
+
+.map {
+  padding: 20px;
+  text-align: center; }
+
+.map img {
+  max-height: 100%; }
+
+.map .warning {
+  text-align: center !important;
+  padding: 5px; }
+
+.howto-section {
+  max-width: 80%;
+  padding: 0 10%; }
+
+.howto-section p {
+  margin: 15px 0 0;
+  text-align: center;
+  color: #000;
+  font-size: 1.2em; }
+
+.howto-section h1 {
+  padding: 15px 0; }
+
+.howto-section .sub-title {
+  margin: 50px 0 0;
+  text-align: center; }
+
+.howto-section .element {
+  width: 90%;
+  min-height: 300px;
+  vertical-align: top;
+  background: #b2bd64;
+  padding: 10px;
+  display: inline-block;
+  margin: 40px 10px 0; }
+
+.howto-section .element .title {
+  color: #F5F5DC;
+  font-size: 3em; }
+
+.howto-section .element p {
+  margin: 5px;
+  color: #fff; }
+
+.map {
+  margin: 25px; }

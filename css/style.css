@@ -89,7 +89,7 @@ header nav a {
   color: red; }
 
 .description-section .wrapper {
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px; }
 
 .description-section .wrapper .tour-img {
@@ -111,7 +111,7 @@ header nav a {
   vertical-align: middle;
   display: inline-block;
   width: 350px;
-  height: 440px;
+  min-height: 440px;
   background: #B2BD64;
   margin: 5px; }
 
@@ -254,7 +254,7 @@ tfoot td {
   text-align: left; }
 
 .billing-section .biling-element {
-  max-width: 350px;
+  width: 350px;
   min-height: 300px;
   vertical-align: top;
   background: #b2bd64;
@@ -276,6 +276,9 @@ tfoot td {
 .billing-section .biling-element .biling-p2 {
   margin-top: 15px;
   font-size: 1.2em; }
+
+.billing-section .why {
+  width: auto !important; }
 
 .sale {
   margin: 25px 0;
@@ -398,7 +401,7 @@ form textarea {
   color: red;
   font-size: 1.2em;
   margin: 25px 0;
-  text-align: left; }
+  text-align: center; }
 
 .map {
   padding: 20px;
@@ -408,7 +411,6 @@ form textarea {
   max-height: 100%; }
 
 .map .warning {
-  text-align: center !important;
   padding: 5px; }
 
 .howto-section {

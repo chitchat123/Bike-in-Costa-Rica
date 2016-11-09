@@ -49,3 +49,7 @@
   .map {
     max-width: 300px;
     padding: 0; } }
+
+@media screen and (max-width: 320px) {
+  .description-section .wrapper .distance .dis-element {
+    height: 600px; } }

@@ -110,7 +110,7 @@ header {
   }
 
   .wrapper {
-    text-align: left;
+    text-align: center;
     padding-bottom: 20px;
 
     .tour-img {
@@ -135,7 +135,7 @@ header {
         vertical-align: middle;
         display: inline-block;
         width: 350px;
-        height: 440px;
+        min-height: 440px;
         background: #B2BD64;
         margin: 5px;
 
@@ -323,7 +323,7 @@ tfoot td {
   }
 
   .biling-element {
-    max-width: 350px;
+    width: 350px;
     min-height: 300px;
     vertical-align: top;
     background: rgb(178, 189, 100);
@@ -351,6 +351,11 @@ tfoot td {
       font-size: 1.2em;
     }
   }
+
+  .why {
+    width: auto !important;
+  }
+
 }
 
 .sale {
@@ -506,7 +511,7 @@ form {
   color: red;
   font-size: 1.2em;
   margin: 25px 0;
-  text-align: left;
+  text-align: center;
 }
 
 .map {
@@ -518,7 +523,6 @@ form {
   }
 
   .warning {
-    text-align: center !important;
     padding: 5px;
   }
 

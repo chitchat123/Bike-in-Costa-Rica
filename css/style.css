@@ -254,7 +254,7 @@ tfoot td {
   text-align: left; }
 
 .billing-section .biling-element {
-  width: 350px;
+  max-width: 350px;
   min-height: 300px;
   vertical-align: top;
   background: #b2bd64;

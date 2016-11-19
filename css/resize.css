@@ -52,6 +52,12 @@
   .description-section .wrapper .distance .dis-element {
     max-width: 350px;
   }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 365px) {
   .description-section .wrapper .distance .dis-element {
-    height: 600px; } }
+    max-width: 320px;} }
+
+@media screen and (max-width: 330px) {
+  .description-section .wrapper .distance .dis-element {
+    height: 600px;
+    max-width: 290px;} }

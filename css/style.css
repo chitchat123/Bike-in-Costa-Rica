@@ -111,7 +111,7 @@ header nav a {
   vertical-align: middle;
   display: inline-block;
   width: 400px;
-  min-height: 472px;
+  height: 530px;
   background: #B2BD64;
   margin: 5px; }
 
@@ -140,7 +140,8 @@ header nav a {
   margin: 25px; }
 
 footer {
-  height: 70px;
+  text-align: center;
+  min-height: 70px;
   background: #536839; }
 
 footer div {
@@ -254,7 +255,7 @@ tfoot td {
   text-align: left; }
 
 .billing-section .biling-element {
-  max-width: 350px;
+  min-width: 350px;
   min-height: 300px;
   vertical-align: top;
   background: #b2bd64;
@@ -278,7 +279,8 @@ tfoot td {
   font-size: 1.2em; }
 
 .billing-section .why {
-  width: auto !important; }
+  width: auto !important;
+  max-width: 100%; }
 
 .sale {
   margin: 25px 0;
@@ -449,3 +451,6 @@ form textarea {
 
 .map {
   margin: 25px; }
+
+.big {
+  font-size: 3em; }

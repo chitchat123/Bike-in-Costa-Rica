@@ -131,11 +131,12 @@ header {
         font-size: 1.5em;
       }
 
+
       .dis-element {
         vertical-align: middle;
         display: inline-block;
         width: 400px;
-        min-height: 472px;
+        height: 530px;
         background: #B2BD64;
         margin: 5px;
 
@@ -179,7 +180,8 @@ header {
 
 
 footer {
-  height: 70px;
+  text-align: center;
+  min-height: 70px;
   background: rgb(83, 104, 57);
 
   div {
@@ -323,7 +325,7 @@ tfoot td {
   }
 
   .biling-element {
-    max-width: 350px;
+    min-width: 350px;
     min-height: 300px;
     vertical-align: top;
     background: rgb(178, 189, 100);
@@ -354,6 +356,7 @@ tfoot td {
 
   .why {
     width: auto !important;
+    max-width: 100%;
   }
 
 }
@@ -571,4 +574,7 @@ form {
 
 .map {
   margin: 25px;
+}
+.big {
+  font-size: 3em;
 }

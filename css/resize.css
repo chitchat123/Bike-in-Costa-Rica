@@ -32,7 +32,7 @@
   .header-img h2 {
     font-size: 2em; } }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .wrapper img {
     width: 250px; }
   .description-section .wrapper .distance .dis-element {
@@ -45,19 +45,20 @@
 
 @media screen and (max-width: 400px) {
   .biling-element {
-    max-width: 300px; }
+    max-width: 300px;
+    min-width: 0px !important; }
   .map {
     max-width: 300px;
     padding: 0; } }
-  .description-section .wrapper .distance .dis-element {
-    max-width: 350px;
-  }
+
+.description-section .wrapper .distance .dis-element {
+  max-width: 350px; }
 
 @media screen and (max-width: 365px) {
   .description-section .wrapper .distance .dis-element {
-    max-width: 320px;} }
+    max-width: 320px; } }
 
 @media screen and (max-width: 330px) {
   .description-section .wrapper .distance .dis-element {
     height: 600px;
-    max-width: 290px;} }
+    max-width: 290px; } }

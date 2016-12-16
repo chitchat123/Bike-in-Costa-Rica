@@ -14,29 +14,35 @@ body {
 
 header {
 
-  nav {
-    padding-left: 150px;
+  nav{
     position: fixed;
     z-index: 10;
     width: 100%;
     height: 70px;
-    text-align: center;
     background-color: rgba(83,104,57, 0.5);
-    display: flex;
-    // flex-wrap: wrap;
+
+    .nav {
+      right: 1px;
+      // padding-left: 150px;
+      display: flex;
+      position: absolute;
+      // flex-wrap: wrap;
 
 
-    #singleword{
-      line-height: 50px;
-    }
-    a {
-      text-decoration: none;
-      font-family: 'Alegreya';
-      font-size: 1.5em;
-      line-height: 25px;
-      padding: 15px;
-      font-weight: 200;
-      // width: 10%;
+      #singleword{
+        line-height: 50px;
+      }
+      a {
+        text-decoration: none;
+        font-family: 'Alegreya';
+        font-size: 1.5em;
+        line-height: 25px;
+        padding: 12px;
+        font-weight: 200;
+        display: flex-block;
+        text-align: center;
+        // width: 10%;
+      }
     }
   }
 }
